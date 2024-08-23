@@ -1,0 +1,30 @@
+{
+  "name": "@galxe/galxe-loyalty-point-token-list",
+  "author": {
+    "name": "Galxe",
+    "url": "https://galxe.com"
+  },
+  "description": "Galxe Loyalty Point Token List",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/Galxe/galxe-loyalty-point-token-list",
+    "type": "git"
+  },
+  "type": "module",
+  "scripts": {
+    "generate": "tsx scripts/generate.ts > src/tokenlist.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@uniswap/token-lists": "^1.0.0-beta.34",
+    "tsx": "^4.17.0"
+  }
+}
